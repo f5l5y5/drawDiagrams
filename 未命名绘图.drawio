@@ -1,11 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T06:04:16.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PC9kEPXidLiSCgXWGzUp" version="20.2.0" type="github">
-  <diagram id="vtoGGetFCqlAYCPLXZxP" name="第 1 页">
+<mxfile host="app.diagrams.net" modified="2022-07-28T05:34:50.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="B26p2pieFyGXIj6TIYQp" version="20.2.0" type="github">
+  <diagram id="vtoGGetFCqlAYCPLXZxP" name="vue2-vue3渲染模板">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jXRyOj6Qu7gkDSpOse-d-1" value="123" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jXRyOj6Qu7gkDSpOse-d-1" target="Rw7i65c8LPT7EPaT8IXC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jXRyOj6Qu7gkDSpOse-d-1" value="vue2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rw7i65c8LPT7EPaT8IXC-1" target="Rw7i65c8LPT7EPaT8IXC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-1" value="vue3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-2" value="index.html" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rw7i65c8LPT7EPaT8IXC-4" target="Rw7i65c8LPT7EPaT8IXC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Fira Code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;Vue&lt;/span&gt;({&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;el&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#app&#39;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;router&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;store&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;render&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;h&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;h&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;App&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;})&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rw7i65c8LPT7EPaT8IXC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="350" />
+              <mxPoint x="590" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Fira Code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;app&lt;/span&gt; = &lt;span style=&quot;color: #dcdcaa;&quot;&gt;createApp&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;App&lt;/span&gt;)&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;app&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;use&lt;/span&gt;(&lt;span style=&quot;color: #4fc1ff;&quot;&gt;store&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .&lt;span style=&quot;color: #dcdcaa;&quot;&gt;use&lt;/span&gt;(&lt;span style=&quot;color: #4fc1ff;&quot;&gt;router&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .&lt;span style=&quot;color: #dcdcaa;&quot;&gt;use&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;Element3&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .&lt;span style=&quot;color: #dcdcaa;&quot;&gt;mount&lt;/span&gt;(&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#app&#39;&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw7i65c8LPT7EPaT8IXC-10" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Vue2 使用render配置：h函数解析模板 Vue3 通过createApp(App)解析模板并.mount(挂载在#app上)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="550" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
